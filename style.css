@@ -1,0 +1,207 @@
+/* 🎀 Estilo general */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff0f6;
+  color: #333;
+}
+
+/* 🌸 Encabezado */
+header {
+  background: linear-gradient(90deg, #ff8ac3, #ffb6d9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #fff8dc;
+}
+
+/* 💕 Sección principal (hero) */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #ffe6ef;
+}
+
+.hero img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  color: #d63384;
+}
+
+.hero-text p {
+  font-size: 1.1em;
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.hero-text button {
+  background-color: #ff66a3;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-text button:hover {
+  background-color: #e0558f;
+}
+
+/* 💄 Productos */
+.productos {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.productos h2 {
+  font-size: 2em;
+  color: #d63384;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #d63384;
+}
+
+.card p {
+  font-size: 0.95em;
+  color: #666;
+}
+
+.card button {
+  background-color: #ff8ac3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #e0558f;
+}
+
+/* 💋 Tutoriales */
+.tutoriales {
+  background-color: #ffe6ef;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.tutoriales h2 {
+  color: #d63384;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.video-card {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.video-card h3 {
+  color: #d63384;
+  margin-top: 10px;
+}
+
+/* 💌 Footer */
+footer {
+  background-color: #ff8ac3;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer .redes {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .redes img {
+  width: 35px;
+  transition: 0.3s;
+}
+
+footer .redes img:hover {
+  transform: scale(1.2);
+}
+
+footer .copy {
+  font-size: 0.85em;
+  opacity: 0.8;
+}

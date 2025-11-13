@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paletas de Sombras - Maquíllate con Dana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>💄 Maquíllate con Dana</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Volver al inicio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="productos">
+  <h2>Paletas de Sombras 🎨</h2>
+  <p>Explora nuestras paletas más hermosas y versátiles</p>
+
+  <div class="grid">
+
+    <!-- Paleta 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581349483909-33bd9e7c9e5e?auto=format&fit=crop&w=900&q=80" alt="Mini paleta esencial">
+      <h3>Mini paleta esencial</h3>
+      <p class="precio">COP $20.000</p>
+      <button onclick="comprar('Mini paleta esencial')">Comprar</button>
+    </div>
+
+    <!-- Paleta 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1585144848542-3e4d1fa4c63c?auto=format&fit=crop&w=900&q=80" alt="Paleta tonos nude">
+      <h3>Paleta tonos nude</h3>
+      <p class="precio">COP $54.000</p>
+      <button onclick="comprar('Paleta tonos nude')">Comprar</button>
+    </div>
+
+    <!-- Paleta 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612874780365-1f8a8d6a0f6a?auto=format&fit=crop&w=900&q=80" alt="Paleta profesional 30 tonos">
+      <h3>Paleta profesional 30 tonos</h3>
+      <p class="precio">COP $67.000</p>
+      <button onclick="comprar('Paleta profesional 30 tonos')">Comprar</button>
+    </div>
+
+    <!-- Paleta 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612874780365-1f8a8d6a0f6a?auto=format&fit=crop&w=900&q=80" alt="Paleta mega colección">
+      <h3>Paleta mega colección</h3>
+      <p class="precio">COP $120.000</p>
+      <button onclick="comprar('Paleta mega colección')">Comprar</button>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function comprar(producto) {
+    alert("🛍️ Compraste: " + producto + " (compra simulada)");
+  }
+</script>
+
+</body>
+</html>

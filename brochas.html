@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set de Brochas - Maquíllate con Dana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>💄 Maquíllate con Dana</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Volver al inicio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="productos">
+  <h2>Set de Brochas 🖌️</h2>
+  <p>Explora nuestras mejores brochas de maquillaje</p>
+
+  <div class="grid">
+
+    <!-- Producto 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600180758890-6ffcb1b1f1e3?auto=format&fit=crop&w=900&q=80" alt="Kit básico rosa">
+      <h3>Kit básico rosa</h3>
+      <p class="precio">COP $87.000</p>
+      <button onclick="comprar('Kit básico rosa')">Comprar</button>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1586201375761-83865001eaa1?auto=format&fit=crop&w=900&q=80" alt="Brochas profesionales">
+      <h3>Brochas profesionales set</h3>
+      <p class="precio">COP $120.000</p>
+      <button onclick="comprar('Brochas profesionales set')">Comprar</button>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596464716121-9d7b3b88a9f0?auto=format&fit=crop&w=900&q=80" alt="Kit Scarlet">
+      <h3>Kit Scarlet (21 brochas)</h3>
+      <p class="precio">COP $123.000</p>
+      <button onclick="comprar('Kit Scarlet (21 brochas)')">Comprar</button>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596464716121-9d7b3b88a9f0?auto=format&fit=crop&w=900&q=80" alt="Kit Scarlet Atenea">
+      <h3>Kit Scarlet Atenea</h3>
+      <p class="precio">COP $260.000</p>
+      <button onclick="comprar('Kit Scarlet Atenea')">Comprar</button>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function comprar(producto) {
+    alert("🛍️ Compraste: " + producto + " (compra simulada)");
+  }
+</script>
+
+</body>
+</html>
